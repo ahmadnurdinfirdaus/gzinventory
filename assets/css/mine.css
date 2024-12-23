@@ -1,0 +1,88 @@
+html, body {
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+}
+
+#footer {
+    height: 30px;
+    line-height: 30px;
+    background: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.tombol {
+    position: right;
+}
+
+#opsi {
+    text-align: center;
+}
+
+/* form  login */
+.login-form .input-container {
+	border-bottom: 1px solid #CCCCCC;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #9e9e9e;
+	padding-bottom: 5px;
+}
+.login-form .input {
+	border: 0;
+	width: 200px;
+}
+.login-form .input:focus {
+    outline: none;
+}
+#show-password {
+	float: right;
+    vertical-align: bottom;
+    text-align: center;
+    margin-top: 7px;
+	cursor: pointer;
+}
+
+.login-form .button {
+	margin-top: 15px;
+    width: 100%;
+    background: #2e7ec7;
+    border: 0;
+    color: #FFFFFF;
+    padding: 10px;
+    font-size: 15px;
+	cursor: pointer;
+	transition: background .3s;
+}
+.login-form .button:hover {
+	background: #1f6eb7;
+}
+
+.login-form .button:focus {
+	outline: none;
+}
+
+@media screen and (max-height: 600px) {
+	.login-form-container {
+		margin-top: 0;
+		top: 10px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.login-form-container {
+		left: 5px;
+		margin-left: 5px;
+		min-width: 283px;
+		right: 10px;
+		margin-bottom: 10px;
+		width: auto;
+	}
+	.login-form .input {
+        width: 140px;
+    }
+}
+/* end */

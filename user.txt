@@ -1,0 +1,3 @@
+ahmad : produkjadi
+khalid : manajer
+nurdin : admin
